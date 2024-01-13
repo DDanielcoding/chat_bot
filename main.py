@@ -20,10 +20,7 @@ class ChatbotWindow(QMainWindow):
         self.show()
 
 
-class Chatbot:
-    pass
-
- # Instantiating the QApplication
+# Instantiating the QApplication
 app = QApplication(sys.argv)
 main_window = ChatbotWindow()
 sys.exit(app.exec())
